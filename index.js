@@ -9,7 +9,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const account = { addr: "Address", phrase: "seed" };
+const account = { addr: "anAEytvWjtdVjtSiNtcsjjHUrc34cBkSzJoVhhaNCB9Vox4nB", phrase: "normal merge prize shoot vintage secret zebra boy item tail puzzle stable" };
 
 function extractFieldsFromSQL(sql) {
     const regex = /SELECT (.*) FROM/;
