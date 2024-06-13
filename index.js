@@ -9,9 +9,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-const account = { addr: "anAEytvWjtdVjtSiNtcsjjHUrc34cBkSzJoVhhaNCB9Vox4nB", phrase: "normal merge prize shoot vintage secret zebra boy item tail puzzle stable" };
-
-function extractFieldsFromSQL(sql) {
+const account = { addr: "anAEytvWjtdVjtSiNtcsjjHUrc34cBkSzJoVhhaNCB9Vox4nB", phrase: ction extractFieldsFromSQL(sql) {
     const regex = /SELECT (.*) FROM/;
     const matches = regex.exec(sql);
     if (matches && matches[1]) {
